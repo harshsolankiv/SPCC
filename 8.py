@@ -1,0 +1,13 @@
+# print("\nCode Optimization")
+# print("Compile Time Evolution : Constant Propagation")
+# code = (input("\nEnter the code to be optimized : "))
+# change = code.replace('22/7', '3.14')
+# print("\nAfter Optimization, the code is: ")
+# print(change)
+
+print("\nCode Optimization")
+print("Dead Code Elimination")
+code = (input("\nEnter the code to be optimized : "))
+change = code.replace('if(i==1) a= b+2;', '')
+print("\nAfter Optimization, the code is: ")
+print(change)
